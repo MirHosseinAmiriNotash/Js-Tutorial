@@ -12,3 +12,7 @@ console.log(users);//['Hossein', 'sam', 'ali']
 
 users[1] = "reza";
 console.log(users);//['Hossein', 'reza', 'ali']
+
+users[3] = 20;
+users[4] = true;
+console.log(users);//['Hossein', 'reza', 'ali', 20, true]
